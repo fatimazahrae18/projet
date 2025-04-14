@@ -1,0 +1,26 @@
+#a{
+    text-align: center;
+    border: 1px solid black ;
+    margin: 350px ;
+    padding: 50px ;
+    border-radius: 10px;
+}
+.b{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.c{
+    line-height: 40px;
+    display: block;
+}
+#d{
+    background-color: rgb(84, 207, 84);
+    border-radius: 5px;
+    font-style: inherit;
+    padding:  5px 100px;
+    border: 1px solid rgb(84, 207, 84); 
+    cursor: pointer;
+}
+
+    
