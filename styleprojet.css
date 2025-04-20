@@ -1,25 +1,35 @@
+body{
+    background-image: url('imageprojet/background site.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 #a{
     text-align: center;
-    border: 1px solid black ;
-    margin: 350px ;
-    padding: 50px ;
+    border: 1px solid gray ;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 200px;
     border-radius: 10px;
 }
 .b{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
+    color: white;
+    text-shadow:1px 1px 3px#2333db;
 }
 .c{
     line-height: 40px;
     display: block;
 }
 #d{
-    background-color: rgb(84, 207, 84);
+    background-color:white;
     border-radius: 5px;
     font-style: inherit;
     padding:  5px 100px;
-    border: 1px solid rgb(84, 207, 84); 
+    border: 1px solid white; 
     cursor: pointer;
 }
 
