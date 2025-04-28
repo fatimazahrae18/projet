@@ -6,9 +6,6 @@
     font-family: "poppins";
 }
 body{
-    /*background-image: url('imageprojet/background site.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;*/
     display: flex;
     justify-content: center;
     align-items: center;
