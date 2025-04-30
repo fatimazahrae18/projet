@@ -10,7 +10,6 @@
     --intput-border-color : #e3e4e6;
     --transition-3s: 0.3s ;
 }
-/* globl style */
 *{
 
     margin: 0;
@@ -22,6 +21,7 @@ body{
     background-color: #f8f8f8;
     margin: 0;
     line-height: inherit;
+    padding: 0px;
 }
 
 
@@ -35,13 +35,24 @@ header {
     font-family: 'Arial', sans-serif;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+nav{
+    margin-bottom: 100px ;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding: auto;
+}
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
 }
-
+footer .logo{
+    color: white;
+} 
 .auth-links {
     display: flex;
     align-items: center;
@@ -49,8 +60,7 @@ header {
 }
 
 .Register {
-    
-    /* Basic square shape */
+
     display: inline-block;
     width: 100px;     
     height: 50px;      
@@ -59,61 +69,59 @@ header {
     /* Styling */
     background-color:var(--primary-color); 
     color: white;            
-    text-decoration: none;    /* Removes underline */
+    text-decoration: none;  
     text-align: center;     
     font-family: Arial, sans-serif;
     font-weight: 40px;
-    border-radius: 8px;       /* Optional: Slightly rounded corners */
+    border-radius: 8px;       
 }
 
 .Login{
     
-    /* Basic square shape */
     display: inline-block;
-    width: 100px;       /* Equal width */
-    height: 50px;      /* Equal height (makes it square) */
-    line-height: 45px; /* Vertically centers text */
+    width: 100px;     
+    height: 50px;     
+    line-height: 45px; 
     
     /* Styling */
-    background-color: #ffffff; /* Blue background */
+    background-color: #ffffff; 
     color: var(--primary-color);           
-    text-decoration: none;    /* Removes underline */
-    text-align: center;       /* Centers text horizontally */
+    text-decoration: none;    
+    text-align: center;     
     font-family: Arial, sans-serif;
     font-weight: 40px;
     border-color: var(--primary-color);
-    border-radius: 8px;       /* Optional: Slightly rounded corners */
+    border-radius: 8px;      
     border-style: solid ;
     border-width: 1px;
 }
 .description {
-    text-align: center; /* Center-aligns all text content */
-    margin: 0 auto; /* Horizontal centering */
-    max-width: 800px; /* Prevents text from stretching too wide */
-    padding: 100px 20px; /* Reduced side padding for mobile */
+    text-align: center; 
+    margin: 0 auto;
+    max-width: 800px; 
+    padding: 100px 20px;
     font-size: 20px;
 }
 
 .description h1 {
     height: 50px;
-    margin: 0 auto 20px auto; /* Simplified margin */
-    /* width: fit-content not needed with text-align: center */
+    margin: 0 auto 20px auto; 
     font-size: 40px;
 }
 
 .description p {
-    margin: 15px auto; /* Center-aligned with automatic margins */
+    margin: 15px auto; 
     line-height: 1.6;
     font-size: 0.7em;
     font-size: 20px;
 
-    color: #535354; /* Relative to parent's 30px */
+    color: #535354; 
 }
 a {
-    color: inherit;       /* Inherits text color from parent */
-    text-decoration: none; /* Removes underline */
-    background: transparent; /* Removes any background */
-    cursor: pointer;      /* Shows hand cursor on hover */
+    color: inherit;       
+    text-decoration: none;
+    background: transparent; 
+    cursor: pointer;     
 }
 .for{
 
@@ -144,8 +152,8 @@ a {
     color: var(--black-color);
 }
 .for .EnterDescription{
-    margin: 0;
-    color: brown;
+    margin: 5px 0px 5px 0px ;
+    color:var(--black-color);
     padding: 4px;
 }
 .Enter {
