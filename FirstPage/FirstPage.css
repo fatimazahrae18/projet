@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --primary-color:#0d1936;
+    --secondary-color:#535354;
+    --background-color:#efefef;
+    --shadow-color:rgba(0,0,0,0.1);
+    --black-color:#000;
+    --white-color:#FFF;
+    --intput-border-color : #e3e4e6;
+    --transition-3s: 0.3s ;
+}
+/* globl style */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: #f8f8f8;
+    margin: 0;
+    line-height: inherit;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Register {
+    
+    /* Basic square shape */
+    display: inline-block;
+    width: 100px;     
+    height: 50px;      
+    line-height: 50px; 
+    
+    /* Styling */
+    background-color:var(--primary-color); 
+    color: white;            
+    text-decoration: none;    /* Removes underline */
+    text-align: center;     
+    font-family: Arial, sans-serif;
+    font-weight: 40px;
+    border-radius: 8px;       /* Optional: Slightly rounded corners */
+}
+
+.Login{
+    
+    /* Basic square shape */
+    display: inline-block;
+    width: 100px;       /* Equal width */
+    height: 50px;      /* Equal height (makes it square) */
+    line-height: 45px; /* Vertically centers text */
+    
+    /* Styling */
+    background-color: #ffffff; /* Blue background */
+    color: var(--primary-color);           
+    text-decoration: none;    /* Removes underline */
+    text-align: center;       /* Centers text horizontally */
+    font-family: Arial, sans-serif;
+    font-weight: 40px;
+    border-color: var(--primary-color);
+    border-radius: 8px;       /* Optional: Slightly rounded corners */
+    border-style: solid ;
+    border-width: 1px;
+}
+.description {
+    text-align: center; /* Center-aligns all text content */
+    margin: 0 auto; /* Horizontal centering */
+    max-width: 800px; /* Prevents text from stretching too wide */
+    padding: 100px 20px; /* Reduced side padding for mobile */
+    font-size: 20px;
+}
+
+.description h1 {
+    height: 50px;
+    margin: 0 auto 20px auto; /* Simplified margin */
+    /* width: fit-content not needed with text-align: center */
+    font-size: 40px;
+}
+
+.description p {
+    margin: 15px auto; /* Center-aligned with automatic margins */
+    line-height: 1.6;
+    font-size: 0.7em;
+    font-size: 20px;
+
+    color: #535354; /* Relative to parent's 30px */
+}
+a {
+    color: inherit;       /* Inherits text color from parent */
+    text-decoration: none; /* Removes underline */
+    background: transparent; /* Removes any background */
+    cursor: pointer;      /* Shows hand cursor on hover */
+}
+.for{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.for_student,.for_teachers,.for_administrators{
+
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 25px;
+        width: 30%;
+        margin: 10px;
+        text-align: left;
+        transition: transform 0.3s ease;
+    
+}
+.for .for_student:hover,.for_teachers:hover,.for_administrators:hover {
+    box-shadow: 5px 5px 10px #a4a4a4;
+}
+.for h2{
+    margin:  0px;
+    color: var(--black-color);
+}
+.for .EnterDescription{
+    margin: 0;
+    color: brown;
+    padding: 4px;
+}
+.Enter {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.Enter:hover {
+    background-color:#172444;
+}
