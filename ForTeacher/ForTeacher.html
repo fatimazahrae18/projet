@@ -8,20 +8,103 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
-        <nav class="navbar">
+        <header class="navbar">
             <a href="#" class="logo">Exam</a>
             <div class="nav-links">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">exams</a></li>
+                    <li><a href="">Help</a></li>
                     <a href="C:\Users\HP FOLIO 9470m\Documents\GitHub\projet\projet\ForTeacher\profile\profile.html">  <i class='bx bx-user'></i></a>
-                
                  </ul>
             </div>
-            <div>
-                
+        </header>
+        <nav>
+            <div class="manage-exams">
+                <h1>Manage Exams</h1>
+                <p>Create new quizzes or view existing ones.</p>
+
+                <div class="manage-exams-content">
+                    <div class="create-exams">
+                        <h2>create exams</h2>
+                        <div class="create-exams-content">
+                            <div class="QCM">
+                                <h3>QCM</h3>
+                                <div class="QCM-content">
+                                    <label>Quiz Title</label>
+                                    <input type="text" placeholder="Entre quiz titile">
+                                    <label>Quiz Description</label>
+                                    <input type="text" placeholder="Entre quiz Description">
+                                    <div class="quiz-container">
+                                        <div class="Question">
+                                            <h3>Question</h3>
+                                            <h4>Question 1</h4>
+                                            <input type="text" class="question-input" placeholder="Entre your question">
+                                            <h3>options</h3>
+                                            <div class="options-container">
+                                                <div class="option">
+                                                    <input type="checkbox" id="option1">
+                                                    <label for="option1">Option 1</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="checkbox" id="option2">
+                                                    <label for="option2">Option 2</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="checkbox" id="option3">
+                                                    <label for="option3">Option 3</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="checkbox" id="option4">
+                                                    <label for="option4">Option 4</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="add-question0btn">+ Add Question</button>
+                                        <button class="save-quiz-btn">Save Quiz</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="direct-answer-exams">
+                                <h3>Create Direct Answer Quiz</h3>
+                                <div class="direct-answer-exams-content">
+
+                                    <label>Quiz Title</label>
+                                    <input type="text" placeholder="Entre quiz titile">
+                                    <label>Quiz Description</label>
+                                    <input type="text" placeholder="Entre quiz Description">
+                                    <div class="Question">
+                                        <h3>Question 1</h3>
+                                        <label>Question Text</label>
+                                        <input type="text" placeholder="Entre the question">
+                                        <label>Correct Answer</label>
+                                        <input type="text" placeholder="Entre the Correct Answer">
+                                        <label>Points</label>
+                                        <input type="text" placeholder="points for this question">
+                                    </div>
+                                    <button id="add-question" class="btn btn-primary">+ Add Another Question</button>
+                                    <div class="actions">
+                                        <div>
+                                            <button class="btn btn-success">Save Draft</button>
+                                            <button class="btn btn-primary">Preview Quiz</button>
+                                        </div>
+                                        <button class="btn btn-primary">Publish Quiz</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="existe-exams">
+                    <div class="existe-exams-content">
+                        <div class="exams-existe">
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </nav>
-        <script src="ForTeacher.js"></script>
     </body>
 </html>

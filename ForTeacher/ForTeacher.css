@@ -21,6 +21,7 @@
 }
 body{
     font-family: 'poppins',sans-serif;
+    background-color: #f8f8f8;
 
 }
 
@@ -49,11 +50,38 @@ body{
     display: flex;
 }
 .navbar .nav-links ul li {
-    margin: 0 50px;
+    margin: 0 20px;
     padding: 15px;
     
 }
 .navbar .nav-links ul a i{
     cursor: pointer;
     font-size: 50px;
+}
+.manage-exams{
+    background-color: rgb(255, 255, 255);
+    margin:30px 20px 20px 20px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+.direct-answer-exams,.QCM ,.Question,.create-exams{
+    background-color: rgb(255, 255, 255);
+    margin:10px 0px;
+    padding: 10px;
+    border-color: var(--shadow-color);
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+}
+.QCM-content,.direct-answer-exams-content{
+    display: flex;
+    flex-direction:column;
+}
+.Question{
+    display: flex;
+    flex-direction:column;
 }
