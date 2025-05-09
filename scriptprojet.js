@@ -1,3 +1,4 @@
-document.getElementById("d").addEventListener("click", function(){
-    
+let boutton=document.querySelector(".button")
+boutton.addEventListener("click",()=>{
+        console.log("button clickes")
 })
