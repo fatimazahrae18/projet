@@ -20,14 +20,14 @@ body{
     width: 100%;
     max-width: 30rem;
     background-color:transparent;
-    padding:3rem  2rem;
+    padding: 2rem;
     border-radius: 10px;
     color: #fff;
     border: #fff solid 2px;
     backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
 
-    overflow: hidden;
-    position: relative;
 }
 
 section{
@@ -125,4 +125,10 @@ input:valid ~ label{
 }
 .register-option a:hover{
     text-decoration:underline ;
+}
+.a{
+    padding-left: 20px;
+}
+.b{
+    padding-left: 250px;
 }
